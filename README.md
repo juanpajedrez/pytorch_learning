@@ -8,7 +8,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
 
 ### Fundamental Concepts (in progress): 
 - Pytorch fundamentals:
-  * Create torch tensors and show properties like 'item()' or 'dim.'
+  * Create torch tensors and show properties like `item()` or `dim.`
   * Create random torch tensors using 'torch.rand(rows, cols)'
   * Create zeroes and one's tensors.
   * Create tensor ranges, and investigate the different tensor datatypes.
