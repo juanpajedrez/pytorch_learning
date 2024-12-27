@@ -1,6 +1,6 @@
 # Pytorch Learning Repository
 
-Welcome to my Pytorch learning repository! Here, I document my progress with various notebooks and projects that highlight Pytorch’s capabilities and explore its fundamentals in machine learning and deep learning.
+Welcome to my Pytorch learning repository! Here, I document my progress with notebooks and projects highlighting Pytorch’s capabilities and exploring its fundamentals in machine learning and deep learning.
 
 The repository is organized into sections:
 
@@ -14,6 +14,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Create tensor ranges, and investigate the different tensor datatypes.
   * Getting tensor attributes: `dtype`, `shape`, `device`.
   * Tensors with addition, subtraction, multiplication, division, matrix multiplication.
+  * Proper matrix multiplication with proper inner shapes.
+  * tensor aggregation for `sum()`, `min()`, `max()`, `mean()`.
 ### Projects
 
 ### Youtube series:
