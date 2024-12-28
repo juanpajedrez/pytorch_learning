@@ -17,6 +17,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Proper matrix multiplication with proper inner shapes.
   * tensor aggregation for `sum()`, `min()`, `max()`, `mean()`.
   * Reshaping, stacking, squeezing, unsqueezing, and permute methods applications.
+  * Indexing 2D, 3D, and ND torch tensors.
 ### Projects
 
 ### Youtube series:
