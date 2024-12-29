@@ -1,6 +1,6 @@
 # Pytorch Learning Repository
 
-Welcome to my Pytorch learning repository! Here, I document my progress with notebooks and projects that highlight Pytorch’s capabilities and explore its fundamentals in machine learning and deep learning.
+Welcome to my Pytorch learning repository! Here, I document my progress with notebooks and projects highlighting Pytorch’s capabilities and exploring its fundamentals in machine learning and deep learning.
 
 The repository is organized into sections:
 
@@ -18,6 +18,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * tensor aggregation for `sum()`, `min()`, `max()`, `mean()`.
   * Reshaping, stacking, squeezing, unsqueezing, and permute methods applications.
   * Indexing 2D, 3D, and ND torch tensors.
+  * Cast torch and numpy tensors using `torch.from_numpy(ndarray)`, and `torch.Tensor.numpy()`.
 ### Projects
 
 ### Youtube series:
