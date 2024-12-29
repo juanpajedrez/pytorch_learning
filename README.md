@@ -20,6 +20,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Indexing 2D, 3D, and ND torch tensors.
   * Cast torch and numpy tensors using `torch.from_numpy(ndarray)`, and `torch.Tensor.numpy()`.
   * Cast between PyTorch and NumPy.
+  * PyTorch reproducibility using `torch.manual_seed(RANDOM_SEED)`
 ### Projects
 
 ### Youtube series:
