@@ -21,6 +21,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Cast torch and numpy tensors using `torch.from_numpy(ndarray)`, and `torch.Tensor.numpy()`.
   * Cast between PyTorch and NumPy.
   * PyTorch reproducibility using `torch.manual_seed(RANDOM_SEED)`
+  * PyTorch agnostic duda device setup., exchanging tensors between CPU and GPUs.
 ### Projects
 
 ### Youtube series:
