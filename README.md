@@ -22,7 +22,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Cast between PyTorch and NumPy.
   * PyTorch reproducibility using `torch.manual_seed(RANDOM_SEED)`
   * PyTorch agnostic duda device setup., exchanging tensors between CPU and GPUs.
-- Pytorch fundamentals exercises:
+- Pytorch fundamentals solutions/extra-curriculum (**in progress**):
   * Contains solutions of exercises from: https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises
   * Contains solutions of extra-curriculum from: https://www.learnpytorch.io/00_pytorch_fundamentals/#extra-curriculum
 ### Projects
