@@ -7,7 +7,8 @@ The repository is organized into sections:
 Fundamental Concepts: A series of Jupyter notebooks focused on learning and mastering the foundational elements of TensorFlow. Applied Projects: Practical projects showcasing my application of TensorFlow to solve diverse challenges and real-world problems. This repository is a work in progress. I'll update the README and content as I continue on this journey.
 
 ### Fundamental Concepts: 
-- Pytorch fundamentals:
+#### 01_Pytorch_Notebook:
+- PyTorch fundamentals content:
   * Create torch tensors and show properties like `item()` or `dim.`
   * Create random torch tensors using `torch.rand(rows, cols)`
   * Create zeroes and one's tensors.
@@ -25,6 +26,18 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
 - Pytorch fundamentals solutions/extra-curriculum (**in progress**):
   * Contains solutions of exercises from: https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises
   * Contains solutions of extra-curriculum from: https://www.learnpytorch.io/00_pytorch_fundamentals/#extra-curriculum
+### 02_Pytorch_Workflow (in progress):
+- PyTorch Workflow content:
+  * Data preparation and loading in tensors formats.
+  * Splitting data into training and testing splits and plotting them.
+  * Building Model with random values (Hand made single-value linear regression).
+  * Understanding Pytorch essentials: `torch.nn`, `torch.nn.Parameter`, `torch.nn.Module`,
+    `torch.optim`, overwriting `forward()`
+  * Using `torch.inference_mode()` on untrained model and see its predictions.
+  * Fitting a model to training data.
+  * Making predictions and evaluating it (inference).
+  * Saving a loading model.
+  * Putting all together.
 ### Projects
 
 ### Youtube series:
