@@ -39,7 +39,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Saving a loading model.
   * Putting all together.
 - Pytorch Workflow solutions (**in progress**):
-  * Contains solutions of exercises from: https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises
+  * Contains solutions of exercises from: https://www.learnpytorch.io/01_pytorch_workflow/#exercises
 ### Projects
 
 ### Youtube series:
