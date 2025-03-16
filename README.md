@@ -64,10 +64,10 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Create a multiclassification model using `nn.Module`. This time, the constructor is way more advanced for the parameters of in_features and out_features.
   * setup `CrossEntropyLoss()` and `optim.SGD()`.
   * Obtain the (raw output of model logits) -> Predicitons probabilities (`torch.softmax()` across columns dim = 1) -> Prediction labels (`torch.argmax()` across columns dim = 1).
-* Train this model and visualize it! Ir works. Last thing is to repeat this multiclassification model without using non-linear activiation functions
-* Realize that deep learning models without activation functions would still work for linear separable data.
-* Dive into some classification metrics.
-- Pytorch Classification solutions/extra-curriculum (**In progress**):
+  * Train this model and visualize it! Ir works. Last thing is to repeat this multiclassification model without using non-linear activiation functions
+  * Realize that deep learning models without activation functions would still work for linear separable data.
+  * Dive into some classification metrics.
+- Pytorch Classification solutions/extra-curriculum (**Completed**):
   * Contains solutions of exercises from: https://www.learnpytorch.io/02_pytorch_classification/#extra-curriculum
 
 ### Youtube series:
