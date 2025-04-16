@@ -28,15 +28,15 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Contains solutions of extra-curriculum from: https://www.learnpytorch.io/00_pytorch_fundamentals/#extra-curriculum
 ### 01_Pytorch_Workflow:
 - PyTorch Workflow content:
-  * Data preparation and loading in tensors formats.
+  * Data preparation and loading in tensor formats.
   * Splitting data into training and testing splits and plotting them.
-  * Building Model with random values (Hand made single-value linear regression).
+  * Building a Model with random values (Handmade single-value linear regression).
   * Understanding Pytorch essentials: `torch.nn`, `torch.nn.Parameter`, `torch.nn.Module`,
     `torch.optim`, overwriting `forward()`
   * Using `torch.inference_mode()` on an untrained model and see its predictions.
   * Fitting a model to training data.
   * Making predictions and evaluating it (inference).
-  * Saving a loading model.
+  * Saving loading a model.
   * Putting all together.
 - Pytorch Workflow solutions (**Complete**):
   * Contains solutions of exercises from: https://www.learnpytorch.io/01_pytorch_workflow/#exercises
@@ -49,11 +49,11 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Setup an optimizer for binary classification, we used `nn.BCEWithLogitsLoss()` and `torch.optim.SGD()`
   * Define your own accuracy function and train the model
   * Define properly how to go from raw logits (output by model) -> prediction probabilities (activation function `torch.sigmoid()`) -> prediction labels (thresholding at 0.5).
-  * Setup a training and testing loop to test out this model.
+  * Set up a training and testing loop to test out this model.
   * Plot the boundary lines and get it from helper functions: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/helper_functions.py
-  * Improving the model (adding more hiddent units, number of layers, and number of epochs). This is not gonna work :)
-  * Retrain the test this new model, visualize why even after adding much more power, it doesnt work with non-linear data.
-  * Troubleshoot our model by creating regression linear data.
+  * Improving the model (adding more hidden units, number of layers, and number of epochs). This is not gonna work :)
+  * Retrain the test on this new model, visualize why even after adding much more power, it doesn't work with non-linear data.
+  * Troubleshoot our model by creating linear regression data.
   * Setup a `nn.L1Loss()` and `optim.SGD()` to train on linear regression data.
   * Realize that it works! and therefore, for the Circle model, we need to add non-linear activation functions to allow the lines to express non-linear boundary decisions
   * Create a new model, but this time using `nn.RELU()` between each linear layer.
@@ -64,11 +64,32 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Create a multiclassification model using `nn.Module`. This time, the constructor is way more advanced for the parameters of in_features and out_features.
   * setup `CrossEntropyLoss()` and `optim.SGD()`.
   * Obtain the (raw output of model logits) -> Predicitons probabilities (`torch.softmax()` across columns dim = 1) -> Prediction labels (`torch.argmax()` across columns dim = 1).
-  * Train this model and visualize it! Ir works. Last thing is to repeat this multiclassification model without using non-linear activiation functions
+  * Train this model and visualize it! Ir works. Last thing is to repeat this multiclassification model without using non-linear activation functions
   * Realize that deep learning models without activation functions would still work for linear separable data.
   * Dive into some classification metrics.
 - Pytorch Classification solutions/extra-curriculum (**Completed**):
   * Contains solutions of exercises from: https://www.learnpytorch.io/02_pytorch_classification/#extra-curriculum
-
+### 03_pytorch_computer_vision (work in progress)
+- Pytorch Computer vision model:
+  * from `torchvision.datasets`, obtain the `FashionMNIST` datasets for training and testing data.
+  * Look at the shapes, classes, and dimensions of the data.
+  * Visualize the data for different classes (Exploratory EDA).
+  * Using `DataLoader` from `torch.utils.data`; create two Dataloaders with batch size of 32.
+  * Understand how these Dataloader objects work and sample one pass: Input size: `(32, 1, 28, 28)`, Label size: `(32)`.
+  * Create a baseline model using `nn.Linear()` and `nn.Flatten()` layers.
+  * Initiate this model on CPU.
+  * Download `helper_functions.py` using `requests` library. Later import the accuracy function to use.
+  * Create a code to print training time of a block of code using `default_timer()` from `timeit` module.
+  * Repeat a training and testing loop, this time batched.
+  * Create an `eval_model()` function to obtain results from baseline model.
+  * This time, create a second model, using `nn.Linear()`, `nn.Flatten()`, and `nn.Relu()` nonlinear activation functions.
+  * This time, create a `train_step()` and `test_step()` function to functionalize the batch training/testing of a single step/pass: Input size `(32, 1, 28, 28)`
+  * Create a training loop using the past functions and time it, this model was run on GPU.
+  * Compare both model results.
+  * This time, create a third model that is resembling TinyVGGNet convolutional neural layer architecture.
+  * This new model is composed of 2 convolutional blocks: `nn.Conv2D()`, `nn.Relu()`, `nn.MaxPool2d()`; and one classifier: `nn.Flatten()`, `nn.Linear()`.
+  * Make coding steps with random inputs to understand `nn.Conv2D()`, `nn.MaxPool2D`, and the new model behaviour.
+  * Train the model with "train_step()" and "test_step() code and compare against the other linear neural networks models.
+  * Realize the CNN model has higher test and training accuracies than the other models.
 ### Youtube series:
 The entire knowledge of this learning journey comes from the following link: https://www.freecodecamp.org/news/learn-pytorch-for-deep-learning-in-day/
