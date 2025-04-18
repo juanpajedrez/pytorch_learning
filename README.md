@@ -91,5 +91,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Make coding steps with random inputs to understand `nn.Conv2D()`, `nn.MaxPool2D`, and the new model behaviour.
   * Train the model with "train_step()" and "test_step() code and compare against the other linear neural networks models.
   * Realize the CNN model has higher test and training accuracies than the other models.
+  * Compare model results and training time
+  * Create a `make_predictions()` funtion and retrieve some samples againts truth vs predicted.
+  * Save the model using `torch.save()`, `torch.load()`, and `model.state_dict()`
 ### Youtube series:
 The entire knowledge of this learning journey comes from the following link: https://www.freecodecamp.org/news/learn-pytorch-for-deep-learning-in-day/
