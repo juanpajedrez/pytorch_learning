@@ -69,7 +69,7 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Dive into some classification metrics.
 - Pytorch Classification solutions/extra-curriculum (**Completed**):
   * Contains solutions of exercises from: https://www.learnpytorch.io/02_pytorch_classification/#extra-curriculum
-### 03_pytorch_computer_vision (work in progress)
+### 03_pytorch_computer_vision (Completed)
 - Pytorch Computer vision model:
   * from `torchvision.datasets`, obtain the `FashionMNIST` datasets for training and testing data.
   * Look at the shapes, classes, and dimensions of the data.
@@ -94,5 +94,28 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Compare model results and training time
   * Create a `make_predictions()` funtion and retrieve some samples againts truth vs predicted.
   * Save the model using `torch.save()`, `torch.load()`, and `model.state_dict()`
+- Pytorch Workflow solutions (**Completed**):
+  * Contains solutions of excercises from : https://www.learnpytorch.io/03_pytorch_computer_vision/#exercises
+### 04_pytorch_custom_dataset (In progress):
+- Pytorch Custom Dataset:
+  * Import the data using `requests`, `zipfile`, and `pathlib` from: https://github.com/mrdbourke/pytorch-deep-learning/raw/refs/heads/main/data/pizza_steak_sushi.zip
+  * Look at the data preparation and data exploration (visualize the image, class, height, and width).
+  * Using `matplotlib.pyplot` and `numpy`, show it.
+  * using `torchvision`, use `datasets` and `transforms` to transform the data and visualize it.
+  * Create a function that plots original vs the transformed image.
+  * Use `ImageFolder` from `datasets` to load the data since we have it in that folder structure.
+  * Turn it into a `Dataloader` and sample from it.
+  * Create a function called `find_classes` that finds the classes based on the directory name structure
+  * Create an `ImageFolderCustom`, inheriting from `Dataset`, overwriting the `__len__` and `__getitem__` methods.
+  * Create a transform and use the `ImageFolderCustom` to create train and test custom datasets.
+  * Create a function to display them, as well as Dataloaders custom .
+  * Investigate Data Augmentation methods from `torchvision.transforms.TrivialAugmentWide(num_magnitude_bins = 31)`
+  * Create a `TinyVGG` mode class and test the train_dataloader_simple to see if it works.
+  * Use `torchinfo` to get an idea of the shapes of the model.
+  * Create a `train_step()`, `test_step()`, and `train()` functions.
+  * Setup a `nn.CrossEntropyLoss()` and `torch.optim.Adam()` for optimizing.
+  * Plot the loss curves using `matplotlib` and accuracy curves.
+  * Train a new `TinyVGG` model, this time using the train_dataloader_augmented.
+  * Compare the model losses and accuracies using plots and pandas DataFrame.
 ### Youtube series:
 The entire knowledge of this learning journey comes from the following link: https://www.freecodecamp.org/news/learn-pytorch-for-deep-learning-in-day/
