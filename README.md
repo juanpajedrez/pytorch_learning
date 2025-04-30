@@ -117,5 +117,6 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Plot the loss curves using `matplotlib` and accuracy curves.
   * Train a new `TinyVGG` model, this time using the train_dataloader_augmented.
   * Compare the model losses and accuracies using plots and pandas DataFrame.
+  * Download a custom image from the website, and using it to obtain a prediction from it.
 ### Youtube series:
 The entire knowledge of this learning journey comes from the following link: https://www.freecodecamp.org/news/learn-pytorch-for-deep-learning-in-day/
