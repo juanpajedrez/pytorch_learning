@@ -95,14 +95,14 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Create a `make_predictions()` funtion and retrieve some samples againts truth vs predicted.
   * Save the model using `torch.save()`, `torch.load()`, and `model.state_dict()`
 - Pytorch Workflow solutions (**Completed**):
-  * Contains solutions of excercises from : https://www.learnpytorch.io/03_pytorch_computer_vision/#exercises
-### 04_pytorch_custom_dataset (In progress):
+  * Contains solutions of exercises from: https://www.learnpytorch.io/03_pytorch_computer_vision/#exercises
+### 04_pytorch_custom_dataset (Completed):
 - Pytorch Custom Dataset:
   * Import the data using `requests`, `zipfile`, and `pathlib` from: https://github.com/mrdbourke/pytorch-deep-learning/raw/refs/heads/main/data/pizza_steak_sushi.zip
   * Look at the data preparation and data exploration (visualize the image, class, height, and width).
   * Using `matplotlib.pyplot` and `numpy`, show it.
   * using `torchvision`, use `datasets` and `transforms` to transform the data and visualize it.
-  * Create a function that plots original vs the transformed image.
+  * Create a function that plots othe riginal vs the transformed image.
   * Use `ImageFolder` from `datasets` to load the data since we have it in that folder structure.
   * Turn it into a `Dataloader` and sample from it.
   * Create a function called `find_classes` that finds the classes based on the directory name structure
@@ -117,6 +117,11 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Plot the loss curves using `matplotlib` and accuracy curves.
   * Train a new `TinyVGG` model, this time using the train_dataloader_augmented.
   * Compare the model losses and accuracies using plots and pandas DataFrame.
-  * Download a custom image from the website, and using it to obtain a prediction from it.
-### Youtube series:
+  * Download a custom image from the website, and use it to obtain a prediction.
+- Pytorch Custom Dataset Excercises (**Completed**)
+  * Contains solutions from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/04_pytorch_custom_datasets_exercises.ipynb
+### YouTube series:
 The entire knowledge of this learning journey comes from the following link: https://www.freecodecamp.org/news/learn-pytorch-for-deep-learning-in-day/
+Additionally, for **05_Going_Modular**, the last two hours of content come from: https://www.youtube.com/watch?v=LyJtbe__2i0&ab_channel=ZeroToMastery
+
+Thank you MdBourke and MTL for setting up the PyTorch fundamentals :)
