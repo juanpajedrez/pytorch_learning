@@ -25,7 +25,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * PyTorch agnostic duda device setup., exchanging tensors between CPU and GPUs.
 - PyTorch fundamentals solutions/extra-curriculum (**Complete**):
   * Contains solutions of exercises from: https://www.learnPyTorch.io/00_PyTorch_fundamentals/#exercises
-  * Contains solutions of extra-curriculum from: https://www.learnPyTorch.io/00_PyTorch_fundamentals/#extra-curriculum
+  * Contains solutions of extra-curriculum from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/00_pytorch_fundamentals_exercises.ipynb
+
 ### 01_PyTorch_Workflow:
 - PyTorch Workflow content:
   * Data preparation and loading in tensor formats.
@@ -39,7 +40,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Saving loading a model.
   * Putting all together.
 - PyTorch Workflow solutions (**Complete**):
-  * Contains solutions of exercises from: https://www.learnPyTorch.io/01_PyTorch_workflow/#exercises
+  * Contains solutions of exercises from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/01_pytorch_workflow_exercises.ipynb
+
 ### 02_PyTorch_Classification_Workflow
 - PyTorch Classification Content:
   * Made Classification data using `make_circles()` from `sklearn.datasets` for two circles.
@@ -68,7 +70,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Realize that deep learning models without activation functions would still work for linear separable data.
   * Dive into some classification metrics.
 - PyTorch Classification solutions/extra-curriculum (**Completed**):
-  * Contains solutions of exercises from: https://www.learnPyTorch.io/02_PyTorch_classification/#extra-curriculum
+  * Contains solutions of exercises from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/02_pytorch_classification_exercises.ipynb
+
 ### 03_PyTorch_computer_vision (Completed)
 - PyTorch Computer vision model:
   * from `torchvision.datasets`, obtain the `FashionMNIST` datasets for training and testing data.
@@ -95,7 +98,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Create a `make_predictions()` funtion and retrieve some samples againts truth vs predicted.
   * Save the model using `torch.save()`, `torch.load()`, and `model.state_dict()`
 - PyTorch Workflow solutions (**Completed**):
-  * Contains solutions of exercises from: https://www.learnPyTorch.io/03_PyTorch_computer_vision/#exercises
+  * Contains solutions of exercises from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/03_pytorch_computer_vision_exercises.ipynb
+
 ### 04_PyTorch_custom_dataset (Completed):
 - PyTorch Custom Dataset:
   * Import the data using `requests`, `zipfile`, and `pathlib` from: https://github.com/mrdbourke/PyTorch-deep-learning/raw/refs/heads/main/data/pizza_steak_sushi.zip
@@ -119,7 +123,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
   * Compare the model losses and accuracies using plots and pandas DataFrame.
   * Download a custom image from the website, and use it to obtain a prediction.
 - PyTorch Custom Dataset Excercises (**Completed**)
-  * Contains solutions from: https://github.com/mrdbourke/PyTorch-deep-learning/blob/main/extras/exercises/04_PyTorch_custom_datasets_exercises.ipynb
+  * Contains solutions from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/04_pytorch_custom_datasets_exercises.ipynb
+
 ### 05_PyTorch_going_modular (Completed)
 - PyTorch Going Modular:
   * Obtain `get_data.py` using `%%writefile src/get_data.py` in order to download the pizza, steak, and sushi dataset from: https://github.com/mrdbourke/PyTorch-deep-learning/raw/refs/heads/main/data/pizza_steak_sushi.zip
@@ -136,6 +141,8 @@ Fundamental Concepts: A series of Jupyter notebooks focused on learning and mast
     - Ineger number of hidden units.
     At the end, use `utils.py` to save the model.
   * Obtain `predict.py` using `%%writefile src/predict.py` with an added parsed argument called `--image`. A string directory path for a test image.
+- Pytorch Going Modular Excercises: (**Completed**)
+  * Contains solutions from: https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/05_pytorch_going_modular_exercise_template.ipynb
 
 ### YouTube series:
 The entire knowledge of this learning journey comes from the following link: https://www.freecodecamp.org/news/learn-PyTorch-for-deep-learning-in-day/
