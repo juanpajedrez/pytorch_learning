@@ -144,7 +144,7 @@ Covers essential tensor operations and PyTorch basics:
 ## 🧩 06_PyTorch_Transfer_Learning
 
 <details>
-<summary>▶️ <b>
+<summary>▶️ <b>Finetuning Pretrained Weights</b></summary>
 
 - Working with the **Pizza, Steak & Sushi** dataset 
 - Import all going_modular modules (i.e: `get_data.py`, `engine.py`, `train.py`, etc)
