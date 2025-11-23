@@ -39,8 +39,8 @@ Covers essential tensor operations and PyTorch basics:
 - Reproducibility with `torch.manual_seed()`
 
 **🧾 Exercises Completed:**  
-- [00 – PyTorch Fundamentals Exercises](https://www.learnpytorch.io/00_pytorch_fundamentals/#exercises)  
-- [Extra Curriculum Solutions](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/00_pytorch_fundamentals_exercises.ipynb)
+- [00 – PyTorch Fundamentals Exercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/00_pytorch_fundamentals_exercises.ipynb)  
+- [Extra Curriculum Solutions](https://github.com/juanpajedrez/pytorch_learning/blob/main/00_pytorch_fundamentals_sols.ipynb)
 </details>
 
 ---
@@ -58,6 +58,7 @@ Covers essential tensor operations and PyTorch basics:
 
 **🧾 Exercises Completed:**  
 - [01 – PyTorch Workflow Exercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/01_pytorch_workflow_exercises.ipynb)
+- [Extra Curriculum Solutions](https://github.com/juanpajedrez/pytorch_learning/blob/main/01_pytorch_workflow_exercises_sols.ipynb)
 </details>
 
 ---
@@ -76,6 +77,7 @@ Covers essential tensor operations and PyTorch basics:
 
 **🧾 Exercises Completed:**  
 - [02 – PyTorch Classification Exercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/02_pytorch_classification_exercises.ipynb)
+- [Extra Curriculum Solutions](https://github.com/juanpajedrez/pytorch_learning/blob/main/02_pytorch_classification_exercises.ipynb)
 </details>
 
 ---
@@ -94,6 +96,7 @@ Covers essential tensor operations and PyTorch basics:
 
 **🧾 Exercises Completed:**  
 - [03 – Computer Vision Exercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/03_pytorch_computer_vision_exercises.ipynb)
+- [Extra Curriculum Solutions](https://github.com/juanpajedrez/pytorch_learning/blob/main/03_pytorch_computer_vision_exercises.ipynb)
 </details>
 
 ---
@@ -112,6 +115,7 @@ Covers essential tensor operations and PyTorch basics:
 
 **🧾 Exercises Completed:**  
 - [04 – Custom Datasets Exercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/04_pytorch_custom_datasets_exercises.ipynb)
+- [Extra Curriculm Solutions](https://github.com/juanpajedrez/pytorch_learning/blob/main/04_pytorch_custom_datasets_exercises.ipynb)
 </details>
 
 ---
@@ -133,9 +137,29 @@ Covers essential tensor operations and PyTorch basics:
 
 **🧾 Exercises Completed:**  
 - [05 – Going Modular Exercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/05_pytorch_going_modular_exercise_template.ipynb)
+- [Extra Curriculum Solutions](https://github.com/juanpajedrez/pytorch_learning/blob/main/05_pytorch_going_modular_exercises.ipynb)
 </details>
 
 ---
+## 🧩 06_PyTorch_Transfer_Learning
+
+<details>
+<summary>▶️ <b>
+
+- Working with the **Pizza, Steak & Sushi** dataset 
+- Import all going_modular modules (i.e: `get_data.py`, `engine.py`, `train.py`, etc)
+- Perform Image transformation manually with `torchvision.Transforms`
+- Perform Image transformation automatically from pretrained model weights (`EfficientNet_B0_Weights.DEFAULT`)
+- Setup a pretrained model and look at the `features`, `avgpool`, and `classifier`
+- Freeze pretrained model weights `features`.
+- Change and fine-tune pretrained model weights `classifier`
+- Train and evaluate the model
+- Perform a prediction on a test image
+
+- [06 - Transfer Learning Excercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/06_pytorch_transfer_learning_exercises.ipynb)
+- [Extra Curriculum Solutions] In progress....
+---
+
 
 ## 🎓 Learning Sources
 
