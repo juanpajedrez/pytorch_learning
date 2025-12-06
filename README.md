@@ -19,7 +19,7 @@ The repository is structured as follows:
 | [03 – Computer Vision](#03_pytorch_computer_vision) | Image data with CNNs and TinyVGG | ✅ Complete |
 | [04 – Custom Dataset](#04_pytorch_custom_dataset) | Creating and loading custom image datasets | ✅ Complete |
 | [05 – Going Modular](#05_pytorch_going_modular) | Building modular, production-ready code | ✅ Complete |
-| [06 – Transfer Learning](#06_pytorch_transfer_learning) | Transfer learning pretrained models | 🚧 In Progress |
+| [06 – Transfer Learning](#06_pytorch_transfer_learning) | Transfer learning pretrained models | ✅ Complete |
 ---
 
 ## 🧩 00_PyTorch_Notebook
@@ -158,7 +158,7 @@ Covers essential tensor operations and PyTorch basics:
 
 **🧾 Exercises In Progress:**  
 - [06 - Transfer Learning Excercises](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/exercises/06_pytorch_transfer_learning_exercises.ipynb)
-- [Extra Curriculum Solutions] In progress....
+- [Extra Curriculum Solutions] (https://github.com/juanpajedrez/pytorch_learning/blob/main/06_pytorch_transfer_learning_exercises.ipynb)
 <details>
 
 ---
